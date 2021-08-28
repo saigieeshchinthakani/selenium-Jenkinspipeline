@@ -1,6 +1,6 @@
 node {
 	stage ('SCM checkout'){
-		git "https://github.com/saigieeshchinthakani/sonarqube-jacoco-code-coverage.git"
+		git "https://github.com/saigieeshchinthakani/selenium-Jenkinspipeline.git"
 		}
 	stage ('Build'){
     	dir("comtest") {
